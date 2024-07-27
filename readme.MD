@@ -8,7 +8,7 @@ As a DevOps engineer our goals are
 3. Less defects
 
 As a DevOps team we always look for best practices and continuously evolve our process. We are following
-* DevSecOps
+* DevSecOps <br\>
     We implemented scanning at multiple levels.
     * Static Source code analysis
     * Static application security testing
