@@ -8,7 +8,7 @@ As a DevOps engineer our goals are
 3. Less defects
 
 As a DevOps team we always look for best practices and continuously evolve our process. We are following
-* DevSecOps <br\>
+* DevSecOps
     We implemented scanning at multiple levels.
     * Static Source code analysis
     * Static application security testing
@@ -17,7 +17,7 @@ As a DevOps team we always look for best practices and continuously evolve our p
     * Image and containers scanning
 * Shift left <br\>
     We shifted testing and scanning to the DEV stage, so that we can find build related, security related, functionality related errors as early as possible
-* Build once and run anywhere
+* Build once and run anywhere <br\>
     We only build once in DEV environment. We promote the same build to higher environments including prod but with different configurations.
 
 If any new project is started, we should follow a process.
