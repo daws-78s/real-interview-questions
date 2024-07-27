@@ -18,7 +18,7 @@ As a DevOps team we always look for best practices and continuously evolve our p
 * Shift left <br/>
     We shifted testing and scanning to the DEV stage, so that we can find build related, security related, functionality related errors as early as possible
 * Build once and run anywhere <br/>
-    We only build once in DEV environment. We promote the same build to higher environments including prod but with different configurations.
+    We only build once in DEV environment. We promote the same build/image to higher environments including prod but with different configurations.
 
 If any new project is started, we should follow a process.
 * Have a meeting with DEV team
@@ -33,7 +33,7 @@ Once we discuss our approach and strategy with them, We will onboard them into a
 * SonarQube
     Creating a project, setting up quality gates, profiles, etc.
 * Nexus
-    Creating a repo for store their artifacts.
+    Creating a repo to store their artifacts.
 * AWS
     Creating the infra like Route53, New or existing VPC based on their requirement, VM if required, IAM roles, policies, ECR repos and scanning, etc.
 * EKS
