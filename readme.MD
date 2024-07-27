@@ -15,7 +15,7 @@ As a DevOps team we always look for best practices and continuously evolve our p
     * Dynamic application security testing
     * Open source scanning
     * Image and containers scanning
-* Shift left
+* Shift left <br/>
     We shifted testing and scanning to the DEV stage, so that we can find build related, security related, functionality related errors as early as possible
 * Build once and run anywhere
     We only build once in DEV environment. We promote the same build to higher environments including prod but with different configurations.
